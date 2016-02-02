@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		129821918E5785C4B9EFA1B5 /* libPods-Dance2Gather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD68EE2D99DEAE5F9E3E34F6 /* libPods-Dance2Gather.a */; };
+		857CC12C556DEB46D7F5267E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CB696E99DE15E466DD7A43 /* libPods.a */; };
+		B00367171B93377100CB3BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B00367161B93377100CB3BB1 /* main.m */; };
+		B003671A1B93377100CB3BB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B00367191B93377100CB3BB1 /* AppDelegate.m */; };
+		B00367201B93377100CB3BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B003671E1B93377100CB3BB1 /* Main.storyboard */; };
+		B00367221B93377100CB3BB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00367211B93377100CB3BB1 /* Images.xcassets */; };
+		B00367251B93377100CB3BB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00367231B93377100CB3BB1 /* LaunchScreen.xib */; };
+		B00367311B93377100CB3BB1 /* Dance2GatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B00367301B93377100CB3BB1 /* Dance2GatherTests.m */; };
+		B00367651B93570D00CB3BB1 /* D2GEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00367641B93570D00CB3BB1 /* D2GEventTableViewCell.m */; };
+		B00367681B93571500CB3BB1 /* D2GEventDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00367671B93571500CB3BB1 /* D2GEventDetailsViewController.m */; };
+		B003676B1B93571B00CB3BB1 /* D2GEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B003676A1B93571B00CB3BB1 /* D2GEventsViewController.m */; };
+		B003676D1B9357FD00CB3BB1 /* D2GEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B003676C1B9357FD00CB3BB1 /* D2GEventTableViewCell.xib */; };
+		B01615F81C4FB477007EA739 /* D2GEventsStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = B01615F71C4FB477007EA739 /* D2GEventsStructure.m */; };
+		B01616031C566045007EA739 /* D2GWebClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B01616021C566045007EA739 /* D2GWebClient.m */; };
+		B01616061C57C0A8007EA739 /* D2GSubEventType.m in Sources */ = {isa = PBXBuildFile; fileRef = B01616051C57C0A8007EA739 /* D2GSubEventType.m */; };
+		B024B94E1C3BCC2200778B7A /* D2GSubEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B024B94D1C3BCC2200778B7A /* D2GSubEvent.m */; };
+		B07365E61C6113DD00F13271 /* CDLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0A2C9CE1B9CC93B00F1ED87 /* CDLibrary.bundle */; };
+		B073D1A81BCACFFA0019875B /* D2GDance.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1A71BCACFFA0019875B /* D2GDance.m */; };
+		B073D1AE1BCAD00C0019875B /* D2GLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1AD1BCAD00C0019875B /* D2GLocation.m */; };
+		B073D1B11BCAD02D0019875B /* D2GOrganizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1B01BCAD02D0019875B /* D2GOrganizer.m */; };
+		B073D1B41BCAD03F0019875B /* D2GTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1B31BCAD03F0019875B /* D2GTeacher.m */; };
+		B073D1B71BCAD0610019875B /* D2GContact.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1B61BCAD0610019875B /* D2GContact.m */; };
+		B073D1BA1BCAD0820019875B /* D2GAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1B91BCAD0820019875B /* D2GAddress.m */; };
+		B073D1C31BCAD0BC0019875B /* D2GPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1C21BCAD0BC0019875B /* D2GPhone.m */; };
+		B073D1C91BCAD0F80019875B /* D2GCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1C81BCAD0F80019875B /* D2GCountry.m */; };
+		B073D1CC1BCAD1140019875B /* D2GPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1CB1BCAD1140019875B /* D2GPrice.m */; };
+		B073D1D01BCAD1400019875B /* D2GCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1CF1BCAD1400019875B /* D2GCoordinates.m */; };
+		B0989D111BFA739C00BDF2C4 /* D2GEventDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0989D101BFA739C00BDF2C4 /* D2GEventDetailsViewController.xib */; };
+		B0A2C9991B9506FA00F1ED87 /* libCDLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B003674A1B9337B700CB3BB1 /* libCDLibrary.a */; };
+		B0C137E41C4667A300B2AEB2 /* D2GDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C137E31C4667A300B2AEB2 /* D2GDateHelper.m */; };
+		B0E5E6AF1C4E7A85005457B5 /* D2GEventDetailsInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E6AE1C4E7A85005457B5 /* D2GEventDetailsInformationCell.m */; };
+		B0E5E6B11C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0E5E6B01C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib */; };
+		B0E5E6B41C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E6B31C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m */; };
+		B0E5E6B61C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0E5E6B51C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib */; };
+		B0ED60CA1BB6FC4D0083F390 /* D2GEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60C91BB6FC4D0083F390 /* D2GEvent.m */; };
+		B0F341851BFA8977002ECD71 /* D2GEventsFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F341831BFA8977002ECD71 /* D2GEventsFilterViewController.m */; };
+		B0F341861BFA8977002ECD71 /* D2GEventsFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F341841BFA8977002ECD71 /* D2GEventsFilterViewController.xib */; };
+		B0F3418C1BFB5909002ECD71 /* D2GLoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F3418A1BFB5909002ECD71 /* D2GLoadingTableViewCell.m */; };
+		B0F3418D1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F3418B1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B003672B1B93377100CB3BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00367091B93377100CB3BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00367101B93377100CB3BB1;
+			remoteInfo = Dance2Gather;
+		};
+		B00367491B9337B700CB3BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B04FA5B01B93338B00BA2204;
+			remoteInfo = CDLibrary;
+		};
+		B003674B1B9337B700CB3BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B04FA5BB1B93338B00BA2204;
+			remoteInfo = CDLibraryTests;
+		};
+		B003676E1B935CEA00CB3BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B04FA5AF1B93338B00BA2204;
+			remoteInfo = CDLibrary;
+		};
+		B07365E11C6113BE00F13271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B0A2C9AC1B950B8900F1ED87;
+			remoteInfo = CDLibraryResources;
+		};
+		B0A2C9CD1B9CC93B00F1ED87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B0A2C9AD1B950B8900F1ED87;
+			remoteInfo = CDLibraryResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CAC8A3A4F5ACE2A73E18B51 /* Pods-Dance2Gather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dance2Gather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dance2Gather/Pods-Dance2Gather.debug.xcconfig"; sourceTree = "<group>"; };
+		4276CEFEAA7F5421B5F590C5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4A7549FCD31133612202DEF7 /* Pods-Dance2Gather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dance2Gather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dance2Gather/Pods-Dance2Gather.release.xcconfig"; sourceTree = "<group>"; };
+		4E10091AF5BED576139933BF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		88CB696E99DE15E466DD7A43 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00367111B93377100CB3BB1 /* Dance2Gather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dance2Gather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00367151B93377100CB3BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00367161B93377100CB3BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B00367181B93377100CB3BB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B00367191B93377100CB3BB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B003671F1B93377100CB3BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00367211B93377100CB3BB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B00367241B93377100CB3BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B003672A1B93377100CB3BB1 /* Dance2GatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dance2GatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B003672F1B93377100CB3BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00367301B93377100CB3BB1 /* Dance2GatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dance2GatherTests.m; sourceTree = "<group>"; };
+		B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CDLibrary.xcodeproj; path = ../CDLibrary/CDLibrary.xcodeproj; sourceTree = "<group>"; };
+		B00367631B93570D00CB3BB1 /* D2GEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventTableViewCell.h; path = _cells/D2GEventTableViewCell.h; sourceTree = "<group>"; };
+		B00367641B93570D00CB3BB1 /* D2GEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventTableViewCell.m; path = _cells/D2GEventTableViewCell.m; sourceTree = "<group>"; };
+		B00367661B93571500CB3BB1 /* D2GEventDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventDetailsViewController.h; path = _viewControllers/D2GEventDetailsViewController.h; sourceTree = "<group>"; };
+		B00367671B93571500CB3BB1 /* D2GEventDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventDetailsViewController.m; path = _viewControllers/D2GEventDetailsViewController.m; sourceTree = "<group>"; };
+		B00367691B93571B00CB3BB1 /* D2GEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventsViewController.h; path = _viewControllers/D2GEventsViewController.h; sourceTree = "<group>"; };
+		B003676A1B93571B00CB3BB1 /* D2GEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventsViewController.m; path = _viewControllers/D2GEventsViewController.m; sourceTree = "<group>"; };
+		B003676C1B9357FD00CB3BB1 /* D2GEventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GEventTableViewCell.xib; path = _cells/D2GEventTableViewCell.xib; sourceTree = "<group>"; };
+		B01615F61C4FB477007EA739 /* D2GEventsStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventsStructure.h; path = _dataStructure/D2GEventsStructure.h; sourceTree = "<group>"; };
+		B01615F71C4FB477007EA739 /* D2GEventsStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventsStructure.m; path = _dataStructure/D2GEventsStructure.m; sourceTree = "<group>"; };
+		B01616011C566045007EA739 /* D2GWebClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GWebClient.h; path = _network/D2GWebClient.h; sourceTree = "<group>"; };
+		B01616021C566045007EA739 /* D2GWebClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GWebClient.m; path = _network/D2GWebClient.m; sourceTree = "<group>"; };
+		B01616041C57C0A7007EA739 /* D2GSubEventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GSubEventType.h; path = _businessObjects/D2GSubEventType.h; sourceTree = "<group>"; };
+		B01616051C57C0A8007EA739 /* D2GSubEventType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GSubEventType.m; path = _businessObjects/D2GSubEventType.m; sourceTree = "<group>"; };
+		B024B94C1C3BCC2200778B7A /* D2GSubEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GSubEvent.h; path = _businessObjects/D2GSubEvent.h; sourceTree = "<group>"; };
+		B024B94D1C3BCC2200778B7A /* D2GSubEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GSubEvent.m; path = _businessObjects/D2GSubEvent.m; sourceTree = "<group>"; };
+		B073D1A61BCACFFA0019875B /* D2GDance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GDance.h; path = _businessObjects/D2GDance.h; sourceTree = "<group>"; };
+		B073D1A71BCACFFA0019875B /* D2GDance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GDance.m; path = _businessObjects/D2GDance.m; sourceTree = "<group>"; };
+		B073D1AC1BCAD00C0019875B /* D2GLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GLocation.h; path = _businessObjects/D2GLocation.h; sourceTree = "<group>"; };
+		B073D1AD1BCAD00C0019875B /* D2GLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GLocation.m; path = _businessObjects/D2GLocation.m; sourceTree = "<group>"; };
+		B073D1AF1BCAD02D0019875B /* D2GOrganizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GOrganizer.h; path = _businessObjects/D2GOrganizer.h; sourceTree = "<group>"; };
+		B073D1B01BCAD02D0019875B /* D2GOrganizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GOrganizer.m; path = _businessObjects/D2GOrganizer.m; sourceTree = "<group>"; };
+		B073D1B21BCAD03F0019875B /* D2GTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GTeacher.h; path = _businessObjects/D2GTeacher.h; sourceTree = "<group>"; };
+		B073D1B31BCAD03F0019875B /* D2GTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GTeacher.m; path = _businessObjects/D2GTeacher.m; sourceTree = "<group>"; };
+		B073D1B51BCAD0610019875B /* D2GContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GContact.h; path = _businessObjects/D2GContact.h; sourceTree = "<group>"; };
+		B073D1B61BCAD0610019875B /* D2GContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GContact.m; path = _businessObjects/D2GContact.m; sourceTree = "<group>"; };
+		B073D1B81BCAD0820019875B /* D2GAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GAddress.h; path = _businessObjects/D2GAddress.h; sourceTree = "<group>"; };
+		B073D1B91BCAD0820019875B /* D2GAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GAddress.m; path = _businessObjects/D2GAddress.m; sourceTree = "<group>"; };
+		B073D1C11BCAD0BC0019875B /* D2GPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GPhone.h; path = _businessObjects/D2GPhone.h; sourceTree = "<group>"; };
+		B073D1C21BCAD0BC0019875B /* D2GPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GPhone.m; path = _businessObjects/D2GPhone.m; sourceTree = "<group>"; };
+		B073D1C71BCAD0F80019875B /* D2GCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GCountry.h; path = _businessObjects/D2GCountry.h; sourceTree = "<group>"; };
+		B073D1C81BCAD0F80019875B /* D2GCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GCountry.m; path = _businessObjects/D2GCountry.m; sourceTree = "<group>"; };
+		B073D1CA1BCAD1140019875B /* D2GPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GPrice.h; path = _businessObjects/D2GPrice.h; sourceTree = "<group>"; };
+		B073D1CB1BCAD1140019875B /* D2GPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GPrice.m; path = _businessObjects/D2GPrice.m; sourceTree = "<group>"; };
+		B073D1CE1BCAD1400019875B /* D2GCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GCoordinates.h; path = _businessObjects/D2GCoordinates.h; sourceTree = "<group>"; };
+		B073D1CF1BCAD1400019875B /* D2GCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GCoordinates.m; path = _businessObjects/D2GCoordinates.m; sourceTree = "<group>"; };
+		B0989D101BFA739C00BDF2C4 /* D2GEventDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GEventDetailsViewController.xib; path = _viewControllers/D2GEventDetailsViewController.xib; sourceTree = "<group>"; };
+		B0C137E21C4667A300B2AEB2 /* D2GDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GDateHelper.h; path = _helpers/D2GDateHelper.h; sourceTree = "<group>"; };
+		B0C137E31C4667A300B2AEB2 /* D2GDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GDateHelper.m; path = _helpers/D2GDateHelper.m; sourceTree = "<group>"; };
+		B0E5E6AD1C4E7A85005457B5 /* D2GEventDetailsInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventDetailsInformationCell.h; path = _cells/D2GEventDetailsInformationCell.h; sourceTree = "<group>"; };
+		B0E5E6AE1C4E7A85005457B5 /* D2GEventDetailsInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventDetailsInformationCell.m; path = _cells/D2GEventDetailsInformationCell.m; sourceTree = "<group>"; };
+		B0E5E6B01C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GEventDetailsInformationCell.xib; path = _cells/D2GEventDetailsInformationCell.xib; sourceTree = "<group>"; };
+		B0E5E6B21C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventDetailsSubEventCell.h; path = _cells/D2GEventDetailsSubEventCell.h; sourceTree = "<group>"; };
+		B0E5E6B31C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventDetailsSubEventCell.m; path = _cells/D2GEventDetailsSubEventCell.m; sourceTree = "<group>"; };
+		B0E5E6B51C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GEventDetailsSubEventCell.xib; path = _cells/D2GEventDetailsSubEventCell.xib; sourceTree = "<group>"; };
+		B0ED60C81BB6FC4D0083F390 /* D2GEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEvent.h; path = _businessObjects/D2GEvent.h; sourceTree = "<group>"; };
+		B0ED60C91BB6FC4D0083F390 /* D2GEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEvent.m; path = _businessObjects/D2GEvent.m; sourceTree = "<group>"; };
+		B0F341821BFA8977002ECD71 /* D2GEventsFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventsFilterViewController.h; path = _viewControllers/D2GEventsFilterViewController.h; sourceTree = "<group>"; };
+		B0F341831BFA8977002ECD71 /* D2GEventsFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventsFilterViewController.m; path = _viewControllers/D2GEventsFilterViewController.m; sourceTree = "<group>"; };
+		B0F341841BFA8977002ECD71 /* D2GEventsFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GEventsFilterViewController.xib; path = _viewControllers/D2GEventsFilterViewController.xib; sourceTree = "<group>"; };
+		B0F341891BFB5909002ECD71 /* D2GLoadingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GLoadingTableViewCell.h; path = _cells/D2GLoadingTableViewCell.h; sourceTree = "<group>"; };
+		B0F3418A1BFB5909002ECD71 /* D2GLoadingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GLoadingTableViewCell.m; path = _cells/D2GLoadingTableViewCell.m; sourceTree = "<group>"; };
+		B0F3418B1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GLoadingTableViewCell.xib; path = _cells/D2GLoadingTableViewCell.xib; sourceTree = "<group>"; };
+		DD68EE2D99DEAE5F9E3E34F6 /* libPods-Dance2Gather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dance2Gather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B003670E1B93377100CB3BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A2C9991B9506FA00F1ED87 /* libCDLibrary.a in Frameworks */,
+				857CC12C556DEB46D7F5267E /* libPods.a in Frameworks */,
+				129821918E5785C4B9EFA1B5 /* libPods-Dance2Gather.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00367271B93377100CB3BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C99D482BE8C04F35FFF14B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E10091AF5BED576139933BF /* Pods.debug.xcconfig */,
+				4276CEFEAA7F5421B5F590C5 /* Pods.release.xcconfig */,
+				3CAC8A3A4F5ACE2A73E18B51 /* Pods-Dance2Gather.debug.xcconfig */,
+				4A7549FCD31133612202DEF7 /* Pods-Dance2Gather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32A433FBF98DA972B7457DAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88CB696E99DE15E466DD7A43 /* libPods.a */,
+				DD68EE2D99DEAE5F9E3E34F6 /* libPods-Dance2Gather.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B00367081B93377100CB3BB1 = {
+			isa = PBXGroup;
+			children = (
+				B00367131B93377100CB3BB1 /* Dance2Gather */,
+				B003672D1B93377100CB3BB1 /* Dance2GatherTests */,
+				B003673A1B93378800CB3BB1 /* Libraries */,
+				B00367121B93377100CB3BB1 /* Products */,
+				14C99D482BE8C04F35FFF14B /* Pods */,
+				32A433FBF98DA972B7457DAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B00367121B93377100CB3BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00367111B93377100CB3BB1 /* Dance2Gather.app */,
+				B003672A1B93377100CB3BB1 /* Dance2GatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00367131B93377100CB3BB1 /* Dance2Gather */ = {
+			isa = PBXGroup;
+			children = (
+				B0A2C9C91B9CC93B00F1ED87 /* Core */,
+				B00367181B93377100CB3BB1 /* AppDelegate.h */,
+				B00367191B93377100CB3BB1 /* AppDelegate.m */,
+				B003671E1B93377100CB3BB1 /* Main.storyboard */,
+				B00367211B93377100CB3BB1 /* Images.xcassets */,
+				B00367231B93377100CB3BB1 /* LaunchScreen.xib */,
+				B00367141B93377100CB3BB1 /* Supporting Files */,
+			);
+			path = Dance2Gather;
+			sourceTree = "<group>";
+		};
+		B00367141B93377100CB3BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B00367151B93377100CB3BB1 /* Info.plist */,
+				B00367161B93377100CB3BB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B003672D1B93377100CB3BB1 /* Dance2GatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00367301B93377100CB3BB1 /* Dance2GatherTests.m */,
+				B003672E1B93377100CB3BB1 /* Supporting Files */,
+			);
+			path = Dance2GatherTests;
+			sourceTree = "<group>";
+		};
+		B003672E1B93377100CB3BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B003672F1B93377100CB3BB1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B003673A1B93378800CB3BB1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B00367451B9337B700CB3BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B003674C1B9337B700CB3BB1 /* CDLibraryTests.xctest */,
+				B003674A1B9337B700CB3BB1 /* libCDLibrary.a */,
+				B0A2C9CE1B9CC93B00F1ED87 /* CDLibrary.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00367521B93561400CB3BB1 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				B0F3417E1BFA8947002ECD71 /* Filter */,
+				B00367531B93561E00CB3BB1 /* Cells */,
+				B00367691B93571B00CB3BB1 /* D2GEventsViewController.h */,
+				B003676A1B93571B00CB3BB1 /* D2GEventsViewController.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		B00367531B93561E00CB3BB1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B00367631B93570D00CB3BB1 /* D2GEventTableViewCell.h */,
+				B00367641B93570D00CB3BB1 /* D2GEventTableViewCell.m */,
+				B003676C1B9357FD00CB3BB1 /* D2GEventTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B00367541B93562B00CB3BB1 /* EventDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B0F341871BFB5757002ECD71 /* Cells */,
+				B00367661B93571500CB3BB1 /* D2GEventDetailsViewController.h */,
+				B00367671B93571500CB3BB1 /* D2GEventDetailsViewController.m */,
+				B0989D101BFA739C00BDF2C4 /* D2GEventDetailsViewController.xib */,
+			);
+			name = EventDetails;
+			sourceTree = "<group>";
+		};
+		B024B9481C3BC99500778B7A /* SubEventsDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SubEventsDetails;
+			sourceTree = "<group>";
+		};
+		B044383D1BE18F2F0013AE18 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B01616011C566045007EA739 /* D2GWebClient.h */,
+				B01616021C566045007EA739 /* D2GWebClient.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		B0A2C9C91B9CC93B00F1ED87 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B0C137DE1C46670800B2AEB2 /* Helpers */,
+				B044383D1BE18F2F0013AE18 /* Network */,
+				B0A2C9CF1B9CC94700F1ED87 /* Business Object */,
+				B0A2C9D01B9CCAE700F1ED87 /* Views */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B0A2C9CF1B9CC94700F1ED87 /* Business Object */ = {
+			isa = PBXGroup;
+			children = (
+				B073D1B81BCAD0820019875B /* D2GAddress.h */,
+				B073D1B91BCAD0820019875B /* D2GAddress.m */,
+				B073D1B51BCAD0610019875B /* D2GContact.h */,
+				B073D1B61BCAD0610019875B /* D2GContact.m */,
+				B073D1CE1BCAD1400019875B /* D2GCoordinates.h */,
+				B073D1CF1BCAD1400019875B /* D2GCoordinates.m */,
+				B073D1C71BCAD0F80019875B /* D2GCountry.h */,
+				B073D1C81BCAD0F80019875B /* D2GCountry.m */,
+				B073D1A61BCACFFA0019875B /* D2GDance.h */,
+				B073D1A71BCACFFA0019875B /* D2GDance.m */,
+				B0ED60C81BB6FC4D0083F390 /* D2GEvent.h */,
+				B0ED60C91BB6FC4D0083F390 /* D2GEvent.m */,
+				B073D1AC1BCAD00C0019875B /* D2GLocation.h */,
+				B073D1AD1BCAD00C0019875B /* D2GLocation.m */,
+				B073D1AF1BCAD02D0019875B /* D2GOrganizer.h */,
+				B073D1B01BCAD02D0019875B /* D2GOrganizer.m */,
+				B073D1C11BCAD0BC0019875B /* D2GPhone.h */,
+				B073D1C21BCAD0BC0019875B /* D2GPhone.m */,
+				B073D1CA1BCAD1140019875B /* D2GPrice.h */,
+				B073D1CB1BCAD1140019875B /* D2GPrice.m */,
+				B024B94C1C3BCC2200778B7A /* D2GSubEvent.h */,
+				B024B94D1C3BCC2200778B7A /* D2GSubEvent.m */,
+				B073D1B21BCAD03F0019875B /* D2GTeacher.h */,
+				B073D1B31BCAD03F0019875B /* D2GTeacher.m */,
+				B01615F61C4FB477007EA739 /* D2GEventsStructure.h */,
+				B01615F71C4FB477007EA739 /* D2GEventsStructure.m */,
+				B01616041C57C0A7007EA739 /* D2GSubEventType.h */,
+				B01616051C57C0A8007EA739 /* D2GSubEventType.m */,
+			);
+			name = "Business Object";
+			sourceTree = "<group>";
+		};
+		B0A2C9D01B9CCAE700F1ED87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0F341881BFB58D5002ECD71 /* General */,
+				B00367521B93561400CB3BB1 /* Events */,
+				B00367541B93562B00CB3BB1 /* EventDetails */,
+				B024B9481C3BC99500778B7A /* SubEventsDetails */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B0C137DE1C46670800B2AEB2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B0C137E21C4667A300B2AEB2 /* D2GDateHelper.h */,
+				B0C137E31C4667A300B2AEB2 /* D2GDateHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B0F3417E1BFA8947002ECD71 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				B0F341821BFA8977002ECD71 /* D2GEventsFilterViewController.h */,
+				B0F341831BFA8977002ECD71 /* D2GEventsFilterViewController.m */,
+				B0F341841BFA8977002ECD71 /* D2GEventsFilterViewController.xib */,
+			);
+			name = Filter;
+			sourceTree = "<group>";
+		};
+		B0F341871BFB5757002ECD71 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5E6AD1C4E7A85005457B5 /* D2GEventDetailsInformationCell.h */,
+				B0E5E6AE1C4E7A85005457B5 /* D2GEventDetailsInformationCell.m */,
+				B0E5E6B01C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib */,
+				B0E5E6B21C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.h */,
+				B0E5E6B31C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m */,
+				B0E5E6B51C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B0F341881BFB58D5002ECD71 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				B0F341891BFB5909002ECD71 /* D2GLoadingTableViewCell.h */,
+				B0F3418A1BFB5909002ECD71 /* D2GLoadingTableViewCell.m */,
+				B0F3418B1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00367101B93377100CB3BB1 /* Dance2Gather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00367341B93377100CB3BB1 /* Build configuration list for PBXNativeTarget "Dance2Gather" */;
+			buildPhases = (
+				814E113703D947B1A742CDBA /* Check Pods Manifest.lock */,
+				B003670D1B93377100CB3BB1 /* Sources */,
+				B003670E1B93377100CB3BB1 /* Frameworks */,
+				B003670F1B93377100CB3BB1 /* Resources */,
+				31340F6D45E84C4ED74C9FB3 /* Copy Pods Resources */,
+				05115F47F85C07D00A5BC6DC /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07365E21C6113BE00F13271 /* PBXTargetDependency */,
+				B003676F1B935CEA00CB3BB1 /* PBXTargetDependency */,
+			);
+			name = Dance2Gather;
+			productName = Dance2Gather;
+			productReference = B00367111B93377100CB3BB1 /* Dance2Gather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00367291B93377100CB3BB1 /* Dance2GatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00367371B93377100CB3BB1 /* Build configuration list for PBXNativeTarget "Dance2GatherTests" */;
+			buildPhases = (
+				B00367261B93377100CB3BB1 /* Sources */,
+				B00367271B93377100CB3BB1 /* Frameworks */,
+				B00367281B93377100CB3BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B003672C1B93377100CB3BB1 /* PBXTargetDependency */,
+			);
+			name = Dance2GatherTests;
+			productName = Dance2GatherTests;
+			productReference = B003672A1B93377100CB3BB1 /* Dance2GatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00367091B93377100CB3BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = D2G;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Dance2Gather;
+				TargetAttributes = {
+					B00367101B93377100CB3BB1 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = X7FKP2S2Y5;
+					};
+					B00367291B93377100CB3BB1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B00367101B93377100CB3BB1;
+					};
+				};
+			};
+			buildConfigurationList = B003670C1B93377100CB3BB1 /* Build configuration list for PBXProject "Dance2Gather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B00367081B93377100CB3BB1;
+			productRefGroup = B00367121B93377100CB3BB1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B00367451B9337B700CB3BB1 /* Products */;
+					ProjectRef = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B00367101B93377100CB3BB1 /* Dance2Gather */,
+				B00367291B93377100CB3BB1 /* Dance2GatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B003674A1B9337B700CB3BB1 /* libCDLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCDLibrary.a;
+			remoteRef = B00367491B9337B700CB3BB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B003674C1B9337B700CB3BB1 /* CDLibraryTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CDLibraryTests.xctest;
+			remoteRef = B003674B1B9337B700CB3BB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B0A2C9CE1B9CC93B00F1ED87 /* CDLibrary.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CDLibrary.bundle;
+			remoteRef = B0A2C9CD1B9CC93B00F1ED87 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B003670F1B93377100CB3BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F3418D1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib in Resources */,
+				B0E5E6B61C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib in Resources */,
+				B0989D111BFA739C00BDF2C4 /* D2GEventDetailsViewController.xib in Resources */,
+				B003676D1B9357FD00CB3BB1 /* D2GEventTableViewCell.xib in Resources */,
+				B00367201B93377100CB3BB1 /* Main.storyboard in Resources */,
+				B00367251B93377100CB3BB1 /* LaunchScreen.xib in Resources */,
+				B00367221B93377100CB3BB1 /* Images.xcassets in Resources */,
+				B0E5E6B11C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib in Resources */,
+				B0F341861BFA8977002ECD71 /* D2GEventsFilterViewController.xib in Resources */,
+				B07365E61C6113DD00F13271 /* CDLibrary.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00367281B93377100CB3BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05115F47F85C07D00A5BC6DC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dance2Gather/Pods-Dance2Gather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31340F6D45E84C4ED74C9FB3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dance2Gather/Pods-Dance2Gather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814E113703D947B1A742CDBA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B003670D1B93377100CB3BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01615F81C4FB477007EA739 /* D2GEventsStructure.m in Sources */,
+				B024B94E1C3BCC2200778B7A /* D2GSubEvent.m in Sources */,
+				B003671A1B93377100CB3BB1 /* AppDelegate.m in Sources */,
+				B073D1AE1BCAD00C0019875B /* D2GLocation.m in Sources */,
+				B073D1B41BCAD03F0019875B /* D2GTeacher.m in Sources */,
+				B073D1CC1BCAD1140019875B /* D2GPrice.m in Sources */,
+				B01616031C566045007EA739 /* D2GWebClient.m in Sources */,
+				B00367651B93570D00CB3BB1 /* D2GEventTableViewCell.m in Sources */,
+				B0F341851BFA8977002ECD71 /* D2GEventsFilterViewController.m in Sources */,
+				B073D1C91BCAD0F80019875B /* D2GCountry.m in Sources */,
+				B0E5E6B41C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m in Sources */,
+				B073D1BA1BCAD0820019875B /* D2GAddress.m in Sources */,
+				B00367681B93571500CB3BB1 /* D2GEventDetailsViewController.m in Sources */,
+				B0E5E6AF1C4E7A85005457B5 /* D2GEventDetailsInformationCell.m in Sources */,
+				B00367171B93377100CB3BB1 /* main.m in Sources */,
+				B0C137E41C4667A300B2AEB2 /* D2GDateHelper.m in Sources */,
+				B073D1A81BCACFFA0019875B /* D2GDance.m in Sources */,
+				B073D1B71BCAD0610019875B /* D2GContact.m in Sources */,
+				B003676B1B93571B00CB3BB1 /* D2GEventsViewController.m in Sources */,
+				B0ED60CA1BB6FC4D0083F390 /* D2GEvent.m in Sources */,
+				B01616061C57C0A8007EA739 /* D2GSubEventType.m in Sources */,
+				B073D1C31BCAD0BC0019875B /* D2GPhone.m in Sources */,
+				B073D1B11BCAD02D0019875B /* D2GOrganizer.m in Sources */,
+				B0F3418C1BFB5909002ECD71 /* D2GLoadingTableViewCell.m in Sources */,
+				B073D1D01BCAD1400019875B /* D2GCoordinates.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00367261B93377100CB3BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00367311B93377100CB3BB1 /* Dance2GatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B003672C1B93377100CB3BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00367101B93377100CB3BB1 /* Dance2Gather */;
+			targetProxy = B003672B1B93377100CB3BB1 /* PBXContainerItemProxy */;
+		};
+		B003676F1B935CEA00CB3BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDLibrary;
+			targetProxy = B003676E1B935CEA00CB3BB1 /* PBXContainerItemProxy */;
+		};
+		B07365E21C6113BE00F13271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDLibraryResources;
+			targetProxy = B07365E11C6113BE00F13271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B003671E1B93377100CB3BB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B003671F1B93377100CB3BB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B00367231B93377100CB3BB1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00367241B93377100CB3BB1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B00367321B93377100CB3BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Debug;
+		};
+		B00367331B93377100CB3BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00367351B93377100CB3BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAC8A3A4F5ACE2A73E18B51 /* Pods-Dance2Gather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Dance2Gather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(TARGET_BUILD_DIR)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B00367361B93377100CB3BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7549FCD31133612202DEF7 /* Pods-Dance2Gather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Dance2Gather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(TARGET_BUILD_DIR)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B00367381B93377100CB3BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Dance2GatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance2Gather.app/Dance2Gather";
+			};
+			name = Debug;
+		};
+		B00367391B93377100CB3BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Dance2GatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance2Gather.app/Dance2Gather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B003670C1B93377100CB3BB1 /* Build configuration list for PBXProject "Dance2Gather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00367321B93377100CB3BB1 /* Debug */,
+				B00367331B93377100CB3BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00367341B93377100CB3BB1 /* Build configuration list for PBXNativeTarget "Dance2Gather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00367351B93377100CB3BB1 /* Debug */,
+				B00367361B93377100CB3BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00367371B93377100CB3BB1 /* Build configuration list for PBXNativeTarget "Dance2GatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00367381B93377100CB3BB1 /* Debug */,
+				B00367391B93377100CB3BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B00367091B93377100CB3BB1 /* Project object */;
+}

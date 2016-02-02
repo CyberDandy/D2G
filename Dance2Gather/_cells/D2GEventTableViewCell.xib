@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="D2GEventTableViewCell" id="GxB-uj-Ubl" customClass="D2GEventTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GxB-uj-Ubl" id="zgZ-FL-yf9">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckd-1e-CdS" userLabel="MainViewContainer">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oyA-1W-M9v">
+                                <rect key="frame" x="5" y="5" width="92" height="89"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.36627948700000001" green="0.74461410979999998" blue="0.31247549390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oyA-1W-M9v" secondAttribute="height" multiplier="77:75" constant="1" id="hRV-g2-1lk"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AEK-j1-KRG">
+                                <rect key="frame" x="102" y="5" width="213" height="89"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Le grand bal swing de La Bellevilloise" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f47-Jp-fRZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="213" height="34"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gratuit" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5Z-kw-A90">
+                                        <rect key="frame" x="0.0" y="38" width="213" height="17"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="À partir de 20h30" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ccw-UT-Ley">
+                                        <rect key="frame" x="0.0" y="55" width="213" height="17"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Bellevilloise" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7Y-TU-LNW">
+                                        <rect key="frame" x="0.0" y="72" width="213" height="17"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="D7Y-TU-LNW" secondAttribute="bottom" id="6A5-rX-2tk"/>
+                                    <constraint firstItem="Ccw-UT-Ley" firstAttribute="top" secondItem="D5Z-kw-A90" secondAttribute="bottom" id="AQX-4S-pin"/>
+                                    <constraint firstItem="D7Y-TU-LNW" firstAttribute="top" secondItem="Ccw-UT-Ley" secondAttribute="bottom" id="Ado-Ul-5wp"/>
+                                    <constraint firstAttribute="trailing" secondItem="D5Z-kw-A90" secondAttribute="trailing" id="Cby-yL-PCX"/>
+                                    <constraint firstAttribute="trailing" secondItem="D7Y-TU-LNW" secondAttribute="trailing" id="R12-HH-zKL"/>
+                                    <constraint firstItem="f47-Jp-fRZ" firstAttribute="leading" secondItem="AEK-j1-KRG" secondAttribute="leading" id="Vdv-Id-Jtr"/>
+                                    <constraint firstItem="f47-Jp-fRZ" firstAttribute="top" secondItem="AEK-j1-KRG" secondAttribute="top" id="Xav-bz-KJo"/>
+                                    <constraint firstItem="D5Z-kw-A90" firstAttribute="leading" secondItem="AEK-j1-KRG" secondAttribute="leading" id="Xl6-yc-h5N"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ccw-UT-Ley" secondAttribute="trailing" id="eD2-fa-Mq4"/>
+                                    <constraint firstItem="D7Y-TU-LNW" firstAttribute="leading" secondItem="AEK-j1-KRG" secondAttribute="leading" id="ggV-TP-asd"/>
+                                    <constraint firstAttribute="trailing" secondItem="f47-Jp-fRZ" secondAttribute="trailing" id="itR-v2-RMk"/>
+                                    <constraint firstItem="Ccw-UT-Ley" firstAttribute="leading" secondItem="AEK-j1-KRG" secondAttribute="leading" id="wRn-CO-I5e"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="AEK-j1-KRG" secondAttribute="bottom" constant="5" id="A9Y-z3-DYm"/>
+                            <constraint firstAttribute="trailing" secondItem="AEK-j1-KRG" secondAttribute="trailing" constant="5" id="Jyb-VU-ubD"/>
+                            <constraint firstItem="AEK-j1-KRG" firstAttribute="leading" secondItem="oyA-1W-M9v" secondAttribute="trailing" constant="5" id="KQz-Ye-8gp"/>
+                            <constraint firstItem="oyA-1W-M9v" firstAttribute="top" secondItem="ckd-1e-CdS" secondAttribute="top" constant="5" id="ejs-8P-jld"/>
+                            <constraint firstAttribute="bottom" secondItem="oyA-1W-M9v" secondAttribute="bottom" constant="5" id="uzk-Vo-qMu"/>
+                            <constraint firstItem="oyA-1W-M9v" firstAttribute="leading" secondItem="ckd-1e-CdS" secondAttribute="leading" constant="5" id="xRv-ON-LJd"/>
+                            <constraint firstItem="AEK-j1-KRG" firstAttribute="top" secondItem="ckd-1e-CdS" secondAttribute="top" constant="5" id="yLI-Ia-Vpt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="ckd-1e-CdS" firstAttribute="top" secondItem="zgZ-FL-yf9" secondAttribute="top" id="Nz5-Uq-Ihx"/>
+                    <constraint firstItem="ckd-1e-CdS" firstAttribute="leading" secondItem="zgZ-FL-yf9" secondAttribute="leading" id="XZ3-aY-shh"/>
+                    <constraint firstAttribute="bottom" secondItem="ckd-1e-CdS" secondAttribute="bottom" id="ppm-iT-5mh"/>
+                    <constraint firstAttribute="trailing" secondItem="ckd-1e-CdS" secondAttribute="trailing" id="wmD-p1-NMM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="_locationNameLabel" destination="D7Y-TU-LNW" id="VKI-BU-zxM"/>
+                <outlet property="_nameLabel" destination="f47-Jp-fRZ" id="AHv-WA-lrD"/>
+                <outlet property="_priceLabel" destination="D5Z-kw-A90" id="Q99-hL-hpS"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
