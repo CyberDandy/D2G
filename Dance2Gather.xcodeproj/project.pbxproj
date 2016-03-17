@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		129821918E5785C4B9EFA1B5 /* libPods-Dance2Gather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD68EE2D99DEAE5F9E3E34F6 /* libPods-Dance2Gather.a */; };
-		857CC12C556DEB46D7F5267E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CB696E99DE15E466DD7A43 /* libPods.a */; };
 		B00367171B93377100CB3BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B00367161B93377100CB3BB1 /* main.m */; };
 		B003671A1B93377100CB3BB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B00367191B93377100CB3BB1 /* AppDelegate.m */; };
 		B00367201B93377100CB3BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B003671E1B93377100CB3BB1 /* Main.storyboard */; };
@@ -23,7 +22,6 @@
 		B01616031C566045007EA739 /* D2GWebClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B01616021C566045007EA739 /* D2GWebClient.m */; };
 		B01616061C57C0A8007EA739 /* D2GSubEventType.m in Sources */ = {isa = PBXBuildFile; fileRef = B01616051C57C0A8007EA739 /* D2GSubEventType.m */; };
 		B024B94E1C3BCC2200778B7A /* D2GSubEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B024B94D1C3BCC2200778B7A /* D2GSubEvent.m */; };
-		B07365E61C6113DD00F13271 /* CDLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0A2C9CE1B9CC93B00F1ED87 /* CDLibrary.bundle */; };
 		B073D1A81BCACFFA0019875B /* D2GDance.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1A71BCACFFA0019875B /* D2GDance.m */; };
 		B073D1AE1BCAD00C0019875B /* D2GLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1AD1BCAD00C0019875B /* D2GLocation.m */; };
 		B073D1B11BCAD02D0019875B /* D2GOrganizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1B01BCAD02D0019875B /* D2GOrganizer.m */; };
@@ -35,17 +33,21 @@
 		B073D1CC1BCAD1140019875B /* D2GPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1CB1BCAD1140019875B /* D2GPrice.m */; };
 		B073D1D01BCAD1400019875B /* D2GCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = B073D1CF1BCAD1400019875B /* D2GCoordinates.m */; };
 		B0989D111BFA739C00BDF2C4 /* D2GEventDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0989D101BFA739C00BDF2C4 /* D2GEventDetailsViewController.xib */; };
-		B0A2C9991B9506FA00F1ED87 /* libCDLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B003674A1B9337B700CB3BB1 /* libCDLibrary.a */; };
 		B0C137E41C4667A300B2AEB2 /* D2GDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C137E31C4667A300B2AEB2 /* D2GDateHelper.m */; };
+		B0CF87071C9B46E3005F84B8 /* D2GEventDetailsSubEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0CF87091C9B46E3005F84B8 /* D2GEventDetailsSubEventCell.xib */; };
+		B0CF870C1C9B46FF005F84B8 /* D2GLoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0CF870E1C9B46FF005F84B8 /* D2GLoadingTableViewCell.xib */; };
 		B0E5E6AF1C4E7A85005457B5 /* D2GEventDetailsInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E6AE1C4E7A85005457B5 /* D2GEventDetailsInformationCell.m */; };
 		B0E5E6B11C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0E5E6B01C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib */; };
 		B0E5E6B41C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E6B31C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m */; };
-		B0E5E6B61C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0E5E6B51C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib */; };
+		B0E94ABC1C9B40110035EC7D /* CDLibAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E94AAF1C9B40110035EC7D /* CDLibAbstractTableViewCell.m */; };
+		B0E94ABD1C9B40110035EC7D /* CDLibAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E94AB11C9B40110035EC7D /* CDLibAlertViewHelper.m */; };
+		B0E94ABE1C9B40110035EC7D /* CDLibErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E94AB31C9B40110035EC7D /* CDLibErrorHelper.m */; };
+		B0E94ABF1C9B40110035EC7D /* CDLibLocalizedStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E94AB51C9B40110035EC7D /* CDLibLocalizedStringHelper.m */; };
+		B0E94AC01C9B40110035EC7D /* NSBundle+Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E94ABB1C9B40110035EC7D /* NSBundle+Resources.m */; };
 		B0ED60CA1BB6FC4D0083F390 /* D2GEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60C91BB6FC4D0083F390 /* D2GEvent.m */; };
 		B0F341851BFA8977002ECD71 /* D2GEventsFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F341831BFA8977002ECD71 /* D2GEventsFilterViewController.m */; };
 		B0F341861BFA8977002ECD71 /* D2GEventsFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F341841BFA8977002ECD71 /* D2GEventsFilterViewController.xib */; };
 		B0F3418C1BFB5909002ECD71 /* D2GLoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F3418A1BFB5909002ECD71 /* D2GLoadingTableViewCell.m */; };
-		B0F3418D1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F3418B1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,41 +57,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = B00367101B93377100CB3BB1;
 			remoteInfo = Dance2Gather;
-		};
-		B00367491B9337B700CB3BB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B04FA5B01B93338B00BA2204;
-			remoteInfo = CDLibrary;
-		};
-		B003674B1B9337B700CB3BB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B04FA5BB1B93338B00BA2204;
-			remoteInfo = CDLibraryTests;
-		};
-		B003676E1B935CEA00CB3BB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B04FA5AF1B93338B00BA2204;
-			remoteInfo = CDLibrary;
-		};
-		B07365E11C6113BE00F13271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B0A2C9AC1B950B8900F1ED87;
-			remoteInfo = CDLibraryResources;
-		};
-		B0A2C9CD1B9CC93B00F1ED87 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B0A2C9AD1B950B8900F1ED87;
-			remoteInfo = CDLibraryResources;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -110,7 +77,6 @@
 		B003672A1B93377100CB3BB1 /* Dance2GatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dance2GatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B003672F1B93377100CB3BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B00367301B93377100CB3BB1 /* Dance2GatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dance2GatherTests.m; sourceTree = "<group>"; };
-		B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CDLibrary.xcodeproj; path = ../CDLibrary/CDLibrary.xcodeproj; sourceTree = "<group>"; };
 		B00367631B93570D00CB3BB1 /* D2GEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventTableViewCell.h; path = _cells/D2GEventTableViewCell.h; sourceTree = "<group>"; };
 		B00367641B93570D00CB3BB1 /* D2GEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventTableViewCell.m; path = _cells/D2GEventTableViewCell.m; sourceTree = "<group>"; };
 		B00367661B93571500CB3BB1 /* D2GEventDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventDetailsViewController.h; path = _viewControllers/D2GEventDetailsViewController.h; sourceTree = "<group>"; };
@@ -149,12 +115,28 @@
 		B0989D101BFA739C00BDF2C4 /* D2GEventDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GEventDetailsViewController.xib; path = _viewControllers/D2GEventDetailsViewController.xib; sourceTree = "<group>"; };
 		B0C137E21C4667A300B2AEB2 /* D2GDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GDateHelper.h; path = _helpers/D2GDateHelper.h; sourceTree = "<group>"; };
 		B0C137E31C4667A300B2AEB2 /* D2GDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GDateHelper.m; path = _helpers/D2GDateHelper.m; sourceTree = "<group>"; };
+		B0CF87081C9B46E3005F84B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/D2GEventDetailsSubEventCell.xib; sourceTree = "<group>"; };
+		B0CF870B1C9B46EC005F84B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/D2GEventDetailsSubEventCell.strings; sourceTree = "<group>"; };
+		B0CF870D1C9B46FF005F84B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/D2GLoadingTableViewCell.xib; sourceTree = "<group>"; };
+		B0CF87101C9B4701005F84B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/D2GLoadingTableViewCell.strings; sourceTree = "<group>"; };
 		B0E5E6AD1C4E7A85005457B5 /* D2GEventDetailsInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventDetailsInformationCell.h; path = _cells/D2GEventDetailsInformationCell.h; sourceTree = "<group>"; };
 		B0E5E6AE1C4E7A85005457B5 /* D2GEventDetailsInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventDetailsInformationCell.m; path = _cells/D2GEventDetailsInformationCell.m; sourceTree = "<group>"; };
 		B0E5E6B01C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GEventDetailsInformationCell.xib; path = _cells/D2GEventDetailsInformationCell.xib; sourceTree = "<group>"; };
 		B0E5E6B21C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventDetailsSubEventCell.h; path = _cells/D2GEventDetailsSubEventCell.h; sourceTree = "<group>"; };
 		B0E5E6B31C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEventDetailsSubEventCell.m; path = _cells/D2GEventDetailsSubEventCell.m; sourceTree = "<group>"; };
-		B0E5E6B51C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GEventDetailsSubEventCell.xib; path = _cells/D2GEventDetailsSubEventCell.xib; sourceTree = "<group>"; };
+		B0E94AAE1C9B40110035EC7D /* CDLibAbstractTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLibAbstractTableViewCell.h; sourceTree = "<group>"; };
+		B0E94AAF1C9B40110035EC7D /* CDLibAbstractTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLibAbstractTableViewCell.m; sourceTree = "<group>"; };
+		B0E94AB01C9B40110035EC7D /* CDLibAlertViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLibAlertViewHelper.h; sourceTree = "<group>"; };
+		B0E94AB11C9B40110035EC7D /* CDLibAlertViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLibAlertViewHelper.m; sourceTree = "<group>"; };
+		B0E94AB21C9B40110035EC7D /* CDLibErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLibErrorHelper.h; sourceTree = "<group>"; };
+		B0E94AB31C9B40110035EC7D /* CDLibErrorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLibErrorHelper.m; sourceTree = "<group>"; };
+		B0E94AB41C9B40110035EC7D /* CDLibLocalizedStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLibLocalizedStringHelper.h; sourceTree = "<group>"; };
+		B0E94AB51C9B40110035EC7D /* CDLibLocalizedStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLibLocalizedStringHelper.m; sourceTree = "<group>"; };
+		B0E94AB61C9B40110035EC7D /* CDLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLibrary.h; sourceTree = "<group>"; };
+		B0E94AB81C9B40110035EC7D /* CDLibLocalizedStringHelperPrivateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLibLocalizedStringHelperPrivateHeader.h; sourceTree = "<group>"; };
+		B0E94AB91C9B40110035EC7D /* CDPrivateLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPrivateLibrary.h; sourceTree = "<group>"; };
+		B0E94ABA1C9B40110035EC7D /* NSBundle+Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Resources.h"; sourceTree = "<group>"; };
+		B0E94ABB1C9B40110035EC7D /* NSBundle+Resources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Resources.m"; sourceTree = "<group>"; };
 		B0ED60C81BB6FC4D0083F390 /* D2GEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEvent.h; path = _businessObjects/D2GEvent.h; sourceTree = "<group>"; };
 		B0ED60C91BB6FC4D0083F390 /* D2GEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GEvent.m; path = _businessObjects/D2GEvent.m; sourceTree = "<group>"; };
 		B0F341821BFA8977002ECD71 /* D2GEventsFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GEventsFilterViewController.h; path = _viewControllers/D2GEventsFilterViewController.h; sourceTree = "<group>"; };
@@ -162,7 +144,6 @@
 		B0F341841BFA8977002ECD71 /* D2GEventsFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GEventsFilterViewController.xib; path = _viewControllers/D2GEventsFilterViewController.xib; sourceTree = "<group>"; };
 		B0F341891BFB5909002ECD71 /* D2GLoadingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2GLoadingTableViewCell.h; path = _cells/D2GLoadingTableViewCell.h; sourceTree = "<group>"; };
 		B0F3418A1BFB5909002ECD71 /* D2GLoadingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2GLoadingTableViewCell.m; path = _cells/D2GLoadingTableViewCell.m; sourceTree = "<group>"; };
-		B0F3418B1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = D2GLoadingTableViewCell.xib; path = _cells/D2GLoadingTableViewCell.xib; sourceTree = "<group>"; };
 		DD68EE2D99DEAE5F9E3E34F6 /* libPods-Dance2Gather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dance2Gather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -171,8 +152,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A2C9991B9506FA00F1ED87 /* libCDLibrary.a in Frameworks */,
-				857CC12C556DEB46D7F5267E /* libPods.a in Frameworks */,
 				129821918E5785C4B9EFA1B5 /* libPods-Dance2Gather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,9 +189,9 @@
 		B00367081B93377100CB3BB1 = {
 			isa = PBXGroup;
 			children = (
+				B0E94AAD1C9B40110035EC7D /* CDLibrary */,
 				B00367131B93377100CB3BB1 /* Dance2Gather */,
 				B003672D1B93377100CB3BB1 /* Dance2GatherTests */,
-				B003673A1B93378800CB3BB1 /* Libraries */,
 				B00367121B93377100CB3BB1 /* Products */,
 				14C99D482BE8C04F35FFF14B /* Pods */,
 				32A433FBF98DA972B7457DAE /* Frameworks */,
@@ -266,24 +245,6 @@
 				B003672F1B93377100CB3BB1 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B003673A1B93378800CB3BB1 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */,
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		B00367451B9337B700CB3BB1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B003674C1B9337B700CB3BB1 /* CDLibraryTests.xctest */,
-				B003674A1B9337B700CB3BB1 /* libCDLibrary.a */,
-				B0A2C9CE1B9CC93B00F1ED87 /* CDLibrary.bundle */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B00367521B93561400CB3BB1 /* Events */ = {
@@ -400,6 +361,35 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		B0E94AAD1C9B40110035EC7D /* CDLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				B0E94AAE1C9B40110035EC7D /* CDLibAbstractTableViewCell.h */,
+				B0E94AAF1C9B40110035EC7D /* CDLibAbstractTableViewCell.m */,
+				B0E94AB01C9B40110035EC7D /* CDLibAlertViewHelper.h */,
+				B0E94AB11C9B40110035EC7D /* CDLibAlertViewHelper.m */,
+				B0E94AB21C9B40110035EC7D /* CDLibErrorHelper.h */,
+				B0E94AB31C9B40110035EC7D /* CDLibErrorHelper.m */,
+				B0E94AB41C9B40110035EC7D /* CDLibLocalizedStringHelper.h */,
+				B0E94AB51C9B40110035EC7D /* CDLibLocalizedStringHelper.m */,
+				B0E94AB61C9B40110035EC7D /* CDLibrary.h */,
+				B0E94AB71C9B40110035EC7D /* internal */,
+				B0E94ABA1C9B40110035EC7D /* NSBundle+Resources.h */,
+				B0E94ABB1C9B40110035EC7D /* NSBundle+Resources.m */,
+			);
+			name = CDLibrary;
+			path = Dance2Gather/_cdLibrary;
+			sourceTree = "<group>";
+		};
+		B0E94AB71C9B40110035EC7D /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				B0E94AB81C9B40110035EC7D /* CDLibLocalizedStringHelperPrivateHeader.h */,
+				B0E94AB91C9B40110035EC7D /* CDPrivateLibrary.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
 		B0F3417E1BFA8947002ECD71 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,7 +408,7 @@
 				B0E5E6B01C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib */,
 				B0E5E6B21C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.h */,
 				B0E5E6B31C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m */,
-				B0E5E6B51C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib */,
+				B0CF87091C9B46E3005F84B8 /* D2GEventDetailsSubEventCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -428,7 +418,7 @@
 			children = (
 				B0F341891BFB5909002ECD71 /* D2GLoadingTableViewCell.h */,
 				B0F3418A1BFB5909002ECD71 /* D2GLoadingTableViewCell.m */,
-				B0F3418B1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib */,
+				B0CF870E1C9B46FF005F84B8 /* D2GLoadingTableViewCell.xib */,
 			);
 			name = General;
 			sourceTree = "<group>";
@@ -450,8 +440,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B07365E21C6113BE00F13271 /* PBXTargetDependency */,
-				B003676F1B935CEA00CB3BB1 /* PBXTargetDependency */,
 			);
 			name = Dance2Gather;
 			productName = Dance2Gather;
@@ -483,7 +471,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = D2G;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Dance2Gather;
 				TargetAttributes = {
 					B00367101B93377100CB3BB1 = {
@@ -507,12 +495,6 @@
 			mainGroup = B00367081B93377100CB3BB1;
 			productRefGroup = B00367121B93377100CB3BB1 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B00367451B9337B700CB3BB1 /* Products */;
-					ProjectRef = B00367441B9337B700CB3BB1 /* CDLibrary.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B00367101B93377100CB3BB1 /* Dance2Gather */,
@@ -521,37 +503,13 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		B003674A1B9337B700CB3BB1 /* libCDLibrary.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCDLibrary.a;
-			remoteRef = B00367491B9337B700CB3BB1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B003674C1B9337B700CB3BB1 /* CDLibraryTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CDLibraryTests.xctest;
-			remoteRef = B003674B1B9337B700CB3BB1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B0A2C9CE1B9CC93B00F1ED87 /* CDLibrary.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CDLibrary.bundle;
-			remoteRef = B0A2C9CD1B9CC93B00F1ED87 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		B003670F1B93377100CB3BB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0F3418D1BFB5909002ECD71 /* D2GLoadingTableViewCell.xib in Resources */,
-				B0E5E6B61C4E7B24005457B5 /* D2GEventDetailsSubEventCell.xib in Resources */,
+				B0CF870C1C9B46FF005F84B8 /* D2GLoadingTableViewCell.xib in Resources */,
+				B0CF87071C9B46E3005F84B8 /* D2GEventDetailsSubEventCell.xib in Resources */,
 				B0989D111BFA739C00BDF2C4 /* D2GEventDetailsViewController.xib in Resources */,
 				B003676D1B9357FD00CB3BB1 /* D2GEventTableViewCell.xib in Resources */,
 				B00367201B93377100CB3BB1 /* Main.storyboard in Resources */,
@@ -559,7 +517,6 @@
 				B00367221B93377100CB3BB1 /* Images.xcassets in Resources */,
 				B0E5E6B11C4E7ABC005457B5 /* D2GEventDetailsInformationCell.xib in Resources */,
 				B0F341861BFA8977002ECD71 /* D2GEventsFilterViewController.xib in Resources */,
-				B07365E61C6113DD00F13271 /* CDLibrary.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,8 +588,10 @@
 				B073D1AE1BCAD00C0019875B /* D2GLocation.m in Sources */,
 				B073D1B41BCAD03F0019875B /* D2GTeacher.m in Sources */,
 				B073D1CC1BCAD1140019875B /* D2GPrice.m in Sources */,
+				B0E94ABC1C9B40110035EC7D /* CDLibAbstractTableViewCell.m in Sources */,
 				B01616031C566045007EA739 /* D2GWebClient.m in Sources */,
 				B00367651B93570D00CB3BB1 /* D2GEventTableViewCell.m in Sources */,
+				B0E94ABD1C9B40110035EC7D /* CDLibAlertViewHelper.m in Sources */,
 				B0F341851BFA8977002ECD71 /* D2GEventsFilterViewController.m in Sources */,
 				B073D1C91BCAD0F80019875B /* D2GCountry.m in Sources */,
 				B0E5E6B41C4E7B0F005457B5 /* D2GEventDetailsSubEventCell.m in Sources */,
@@ -640,12 +599,15 @@
 				B00367681B93571500CB3BB1 /* D2GEventDetailsViewController.m in Sources */,
 				B0E5E6AF1C4E7A85005457B5 /* D2GEventDetailsInformationCell.m in Sources */,
 				B00367171B93377100CB3BB1 /* main.m in Sources */,
+				B0E94ABE1C9B40110035EC7D /* CDLibErrorHelper.m in Sources */,
 				B0C137E41C4667A300B2AEB2 /* D2GDateHelper.m in Sources */,
 				B073D1A81BCACFFA0019875B /* D2GDance.m in Sources */,
 				B073D1B71BCAD0610019875B /* D2GContact.m in Sources */,
 				B003676B1B93571B00CB3BB1 /* D2GEventsViewController.m in Sources */,
 				B0ED60CA1BB6FC4D0083F390 /* D2GEvent.m in Sources */,
 				B01616061C57C0A8007EA739 /* D2GSubEventType.m in Sources */,
+				B0E94AC01C9B40110035EC7D /* NSBundle+Resources.m in Sources */,
+				B0E94ABF1C9B40110035EC7D /* CDLibLocalizedStringHelper.m in Sources */,
 				B073D1C31BCAD0BC0019875B /* D2GPhone.m in Sources */,
 				B073D1B11BCAD02D0019875B /* D2GOrganizer.m in Sources */,
 				B0F3418C1BFB5909002ECD71 /* D2GLoadingTableViewCell.m in Sources */,
@@ -669,16 +631,6 @@
 			target = B00367101B93377100CB3BB1 /* Dance2Gather */;
 			targetProxy = B003672B1B93377100CB3BB1 /* PBXContainerItemProxy */;
 		};
-		B003676F1B935CEA00CB3BB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CDLibrary;
-			targetProxy = B003676E1B935CEA00CB3BB1 /* PBXContainerItemProxy */;
-		};
-		B07365E21C6113BE00F13271 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CDLibraryResources;
-			targetProxy = B07365E11C6113BE00F13271 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -696,6 +648,26 @@
 				B00367241B93377100CB3BB1 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B0CF87091C9B46E3005F84B8 /* D2GEventDetailsSubEventCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CF87081C9B46E3005F84B8 /* Base */,
+				B0CF870B1C9B46EC005F84B8 /* en */,
+			);
+			name = D2GEventDetailsSubEventCell.xib;
+			path = _cells;
+			sourceTree = "<group>";
+		};
+		B0CF870E1C9B46FF005F84B8 /* D2GLoadingTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CF870D1C9B46FF005F84B8 /* Base */,
+				B0CF87101C9B4701005F84B8 /* en */,
+			);
+			name = D2GLoadingTableViewCell.xib;
+			path = _cells;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -722,6 +694,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -739,6 +712,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
@@ -793,7 +767,8 @@
 				INFOPLIST_FILE = Dance2Gather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "\"$(TARGET_BUILD_DIR)\"";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyberdandy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -811,7 +786,8 @@
 				INFOPLIST_FILE = Dance2Gather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "\"$(TARGET_BUILD_DIR)\"";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyberdandy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -832,6 +808,7 @@
 				);
 				INFOPLIST_FILE = Dance2GatherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyberdandy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance2Gather.app/Dance2Gather";
 			};
@@ -847,6 +824,7 @@
 				);
 				INFOPLIST_FILE = Dance2GatherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyberdandy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance2Gather.app/Dance2Gather";
 			};

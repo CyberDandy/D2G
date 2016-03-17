@@ -9,10 +9,3 @@ target 'Dance2Gather'  do
     pod 'Overcoat', '~> 4.0.0-beta.1'
     pod 'PureLayout', '~> 2.0.6'
 end
-
-target 'CDLibrary'  do
-    xcodeproj '../CDLibrary/CDLibrary'
-    
-    pod 'Overcoat', '~> 4.0.0-beta.1'
-    pod 'PureLayout', '~> 2.0.6'
-end

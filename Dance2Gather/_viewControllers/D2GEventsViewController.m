@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Dance2Gather. All rights reserved.
 //
 
-#import <CDLibrary/CDLibrary.h>
+#import "CDLibrary.h"
 #import "D2GEventsViewController.h"
 #import "D2GEventTableViewCell.h"
 #import "D2GLoadingTableViewCell.h"

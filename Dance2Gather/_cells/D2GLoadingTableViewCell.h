@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CDLibrary/CDLibrary.h>
+#import "CDLibrary.h"
 
 @interface D2GLoadingTableViewCell : CDLibAbstractTableViewCell
 {

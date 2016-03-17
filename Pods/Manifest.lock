@@ -9,9 +9,7 @@ PODS:
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
-  - Overcoat (4.0.0-beta.1):
-    - Overcoat/Core (= 4.0.0-beta.1)
-  - Overcoat/Core (4.0.0-beta.1):
+  - Overcoat (4.0.0-beta.2):
     - AFNetworking/NSURLSession (~> 3.0)
     - AFNetworking/Serialization (~> 3.0)
     - Mantle (~> 2.0)
@@ -24,7 +22,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
-  Overcoat: a983d4a93b7f34f5d405f525e072dd0d345ec2d2
+  Overcoat: 2ddaa6d66edebc375f3e24a37974631d5aff7ebe
   PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
 
 COCOAPODS: 0.39.0

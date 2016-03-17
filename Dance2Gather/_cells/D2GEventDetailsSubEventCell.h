@@ -6,7 +6,7 @@
 //  Copyright © 2016 Dance2Gather. All rights reserved.
 //
 
-#import <CDLibrary/CDLibrary.h>
+#import "CDLibrary.h"
 #import "D2GSubEvent.h"
 
 @interface D2GEventDetailsSubEventCell : CDLibAbstractTableViewCell
